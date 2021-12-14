@@ -1153,7 +1153,7 @@ public final class Jobs extends JavaPlugin {
 			    player.setTotalExperience(0);
 			    player.setExp(0);
 			} else
-			    player.giveExp(expInt);
+			    player.giveExp(expInt, true);
 		    }
 		}
 
